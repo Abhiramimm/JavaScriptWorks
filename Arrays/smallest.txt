@@ -1,0 +1,23 @@
+var words=["fly","flyoff","flyin","flyout"]
+
+var smallest_word=words[0]
+// for(let ch of words){
+
+//     if (ch.length>smallest_word){
+
+//         smallest_word=ch[i]
+//     }
+    
+// }
+
+for(let ch in words){
+
+    if (ch.length>smallest_word){
+
+        smallest_word=ch
+    }
+    
+}
+
+console.log(smallest_word);
+
