@@ -279,7 +279,7 @@ async function getData(){
 //     ]
 //   }
 
-displayNews(news)
+// displayNews(news)
 
 const categories=["business","entertainment","general","health","science","sports","technology"]
 
